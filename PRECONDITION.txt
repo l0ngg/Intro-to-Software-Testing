@@ -1,5 +1,3 @@
-# Intro-to-Software-Testing
-
 #SET UP THE TESTING ENVIRONMENT FOR TESTCASE 02, 04, 06, 08
 
 1. Use firefix 97.0.2 (64-bit)
