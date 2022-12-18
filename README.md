@@ -8,7 +8,7 @@
 4. Set up Administrator account for Moodle
 5. Use the "Course Restore" functionality of Moodle to import the course here: https://files.catbox.moe/deg755.mbz
 Guide on Moodle course restore :https://docs.moodle.org/401/en/Course_restore
-6. Add your created Administration account into the newly added course
+6. Enroll your created Administration account into the newly added course with administrative permission (important)
 7. Run "pip install requirement.txt" to install all the neccesary library
 
 #DATA SETUP
