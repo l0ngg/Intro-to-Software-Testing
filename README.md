@@ -12,9 +12,13 @@ Guide on Moodle course restore :https://docs.moodle.org/401/en/Course_restore
 7. Run "pip install requirement.txt" to install all the neccesary library
 
 #DATA SETUP
+
 7. Make sure the following data files are present:
+
 "login_credentials.json"
+
 "TC02TestData.json"
+
 "TC06TestData.json"
 
 8. Modify the "login_credentials.json" corresponding to the Moodle administrative account on your local machine
