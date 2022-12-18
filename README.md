@@ -13,7 +13,7 @@ Guide on Moodle course restore :https://docs.moodle.org/401/en/Course_restore
 
 #DATA SETUP
 
-7. Make sure the following data files are present:
+8. Make sure the following data files are present:
 
 "login_credentials.json"
 
@@ -21,6 +21,6 @@ Guide on Moodle course restore :https://docs.moodle.org/401/en/Course_restore
 
 "TC06TestData.json"
 
-8. Modify the "login_credentials.json" corresponding to the Moodle administrative account on your local machine
+9. Modify the "login_credentials.json" corresponding to the Moodle administrative account on your local machine
 
 # Now you should be able to the run the testcases
