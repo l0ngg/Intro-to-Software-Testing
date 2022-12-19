@@ -8,15 +8,19 @@
 4. Set up Administrator account for Moodle
 5. Use the "Course Restore" functionality of Moodle to import the course here: https://files.catbox.moe/deg755.mbz
 Guide on Moodle course restore :https://docs.moodle.org/401/en/Course_restore
-6. Add your created Administration account into the newly added course
+6. Enroll your created Administration account into the newly added course with administrative permission (important)
 7. Run "pip install requirement.txt" to install all the neccesary library
 
 #DATA SETUP
-7. Make sure the following data files are present:
+
+8. Make sure the following data files are present:
+
 "login_credentials.json"
+
 "TC02TestData.json"
+
 "TC06TestData.json"
 
-8. Modify the "login_credentials.json" corresponding to the Moodle administrative account on your local machine
+9. Modify the "login_credentials.json" corresponding to the Moodle administrative account on your local machine
 
 # Now you should be able to the run the testcases
