@@ -7,7 +7,8 @@
 3. Set up Moodle 401+
 4. Set up Administrator account for Moodle
 5. Use the "Course Restore" functionality of Moodle to import the course here: https://github.com/l0ngg/Intro-to-Software-Testing/blob/main/Moodle%20course%20for%20Import%20(Restore)/moodle_backup.mbz
-Guide on Moodle course restore :https://docs.moodle.org/401/en/Course_restore
+
+(Guide on Moodle course restore :https://docs.moodle.org/401/en/Course_restore)
 6. Enroll your created Administration account into the newly added course with administrative permission (important)
 7. Run "pip install requirement.txt" to install all the neccesary library
 
