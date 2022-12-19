@@ -2,7 +2,7 @@
 
 #SET UP THE TESTING ENVIRONMENT FOR TESTCASE 02, 04, 06, 08
 
-1. Use firefix 97.0.2 (64-bit)
+1. Use firefox 97.0.2 (64-bit)
 
 2. Set up XAMPP v3.3.0 (compiled Apr 6th 2021)
 
@@ -22,11 +22,15 @@
 
 8. Make sure the following data files are present:
 
-"login_credentials.json"
+"TestData/TC01TestData.json"
 
-"TC02TestData.json"
+"TestData/TC02TestData.json"
 
-"TC06TestData.json"
+"TestData/TC03TestData.json"
+
+"TestData/TC05TestData.json"
+
+"TestData/TC06TestData.json"
 
 9. Modify the "login_credentials.json" corresponding to the Moodle administrative account on your local machine
 
