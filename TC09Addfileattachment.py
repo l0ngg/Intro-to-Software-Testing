@@ -2,7 +2,6 @@
 import pytest
 import time
 import json
-import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
@@ -11,7 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-class TestTC02Descriptionmodify():
+class TestTC09Addfileattachment():
   def setup_method(self, method):
     self.driver = webdriver.Firefox()
     self.vars = {}
@@ -19,7 +18,7 @@ class TestTC02Descriptionmodify():
   def teardown_method(self, method):
     self.driver.quit()
   
-  def test_tC02Descriptionmodify(self, username, password, data):
+  def test_tC09Addfileattachment(self, username, password):
     self.driver.get("https://localhost/moodle/")
     self.driver.find_element(By.LINK_TEXT, "Log in").click()
     self.driver.find_element(By.ID, "username").click()
@@ -32,19 +31,36 @@ class TestTC02Descriptionmodify():
     self.driver.find_element(By.NAME, "setmode").click()
     WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.XPATH, "//span[contains(.,\'Software Testing\')]")))
     self.driver.find_element(By.XPATH, "//span[contains(.,\'Software Testing\')]").click()
+    
     WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.XPATH, "//li[2]/div/div/div[2]/div/div/div/div/a")))
     time.sleep(3)
     self.driver.find_element(By.XPATH, "//li[2]/div/div/div[2]/div/div/div/div/a").click()
     WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.LINK_TEXT, "Edit settings")))
     time.sleep(3)
     self.driver.find_element(By.ID, "actionmenuaction-8").click()
-    self.driver.find_element(By.ID, "id_introeditoreditable").click()
-    element = self.driver.find_element(By.ID, "id_introeditoreditable")
-    self.driver.execute_script("if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '" + data["data"] +"'}", element)
+    
+    self.driver.find_element(By.XPATH, "//div[2]/div/div/div/a/i").click()
+    WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.XPATH, "//a[contains(.,\' URL downloader\')]")))
+    self.driver.find_element(By.XPATH, "//a[contains(.,\' URL downloader\')]").click()
+    WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.ID, "fileurl")))
+    self.driver.find_element(By.ID, "fileurl").click()
+    self.driver.find_element(By.ID, "fileurl").send_keys("https://placehold.jp/150x150.png")
+    WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.XPATH, "//p/button")))
+    self.driver.find_element(By.XPATH, "//p/button").click()
+    WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.XPATH, "//div[2]/div/a/div/div[3]")))
+    self.driver.find_element(By.XPATH, "//div[2]/div/a/div/div[3]").click()
+    self.driver.find_element(By.XPATH, "//div/div[2]/form/div/input").click()
+    self.driver.find_element(By.XPATH, "//div/div[2]/form/div/input").send_keys("fileuploadtest.txt")
+    WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.XPATH, "//button[contains(.,\'Select this file\')]")))
+    self.driver.find_element(By.XPATH, "//button[contains(.,\'Select this file\')]").click()
+    WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.XPATH, "//a/div/div[3]")))
     self.driver.find_element(By.ID, "id_submitbutton").click()
+    self.driver.find_element(By.LINK_TEXT, "Settings").click()
+    WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.XPATH, "//div[2]/a/div/div[3]")))
+    elements = self.driver.find_elements(By.XPATH, "//div[2]/a/div/div[3]")
+    assert len(elements) > 0
+    
     WebDriverWait(self.driver, 30).until(expected_conditions.presence_of_element_located((By.ID, "user-menu-toggle")))
-    time.sleep(3)
-    assert self.driver.find_element(By.XPATH, "//div[@id=\'intro\']/div").text == data["expected"]
     time.sleep(3)
     self.driver.find_element(By.CSS_SELECTOR, ".userinitials").click()
     self.driver.find_element(By.LINK_TEXT, "Log out").click()
@@ -54,16 +70,11 @@ class TestTC02Descriptionmodify():
 if __name__ == '__main__':
   file1 = open("login_credentials.json")
   
-  file2 = open( "TestData/TC02TestData.json")
-  
   login = json.load(file1)
-  test_data = json.load(file2)
   
-  testcase2 = TestTC02Descriptionmodify()
-  testcase2.setup_method(1)
+  testcase9 = TestTC09Addfileattachment()
+  testcase9.setup_method(1)
   
-  for dataa in test_data["data"]:
-    testcase2.test_tC02Descriptionmodify(login["username"], login["password"],dataa)
-    print("Test case with data : " + dataa["data"] + "\n Completed successfully ")
+  testcase9.test_tC09Addfileattachment(login["username"], login["password"])
   
-  testcase2.teardown_method(1)
+  testcase9.teardown_method(1)

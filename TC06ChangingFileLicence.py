@@ -2,7 +2,6 @@
 import pytest
 import time
 import json
-import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
@@ -11,7 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-class TestTC02Descriptionmodify():
+class TestTC06ChangingFileLicence():
   def setup_method(self, method):
     self.driver = webdriver.Firefox()
     self.vars = {}
@@ -19,7 +18,7 @@ class TestTC02Descriptionmodify():
   def teardown_method(self, method):
     self.driver.quit()
   
-  def test_tC02Descriptionmodify(self, username, password, data):
+  def test_tC06ChangingFileLicence(self, username, password, dataa):
     self.driver.get("https://localhost/moodle/")
     self.driver.find_element(By.LINK_TEXT, "Log in").click()
     self.driver.find_element(By.ID, "username").click()
@@ -38,32 +37,48 @@ class TestTC02Descriptionmodify():
     WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.LINK_TEXT, "Edit settings")))
     time.sleep(3)
     self.driver.find_element(By.ID, "actionmenuaction-8").click()
-    self.driver.find_element(By.ID, "id_introeditoreditable").click()
-    element = self.driver.find_element(By.ID, "id_introeditoreditable")
-    self.driver.execute_script("if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '" + data["data"] +"'}", element)
-    self.driver.find_element(By.ID, "id_submitbutton").click()
-    WebDriverWait(self.driver, 30).until(expected_conditions.presence_of_element_located((By.ID, "user-menu-toggle")))
     time.sleep(3)
-    assert self.driver.find_element(By.XPATH, "//div[@id=\'intro\']/div").text == data["expected"]
+    self.driver.find_element(By.XPATH, "//a/div/div[3]").click()
+    self.driver.find_element(By.XPATH, "//div[4]/div[2]/select").click()
+    
+    dropdown = self.driver.find_element(By.XPATH, "//div[4]/div[2]/select")
+    
+    dropdown.find_element(By.CSS_SELECTOR, "*:nth-child(" + dataa["index"] + ")").click()
+    self.driver.find_element(By.XPATH, "//button[contains(.,\'Update\')]").click()
+    
+    time.sleep(3)
+    WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.ID, "id_submitbutton")))
+    self.driver.find_element(By.ID, "id_submitbutton").click()
+    
+    WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.LINK_TEXT, "Settings")))
+    self.driver.find_element(By.LINK_TEXT, "Settings").click()
+    
+    WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.XPATH, "//a/div/div[3]")))
+    self.driver.find_element(By.XPATH, "//a/div/div[3]").click()
+    value = self.driver.find_element(By.XPATH, "//div[4]/div[2]/select").get_attribute("value")
+    assert value == dataa["expected"]
+    self.driver.find_element(By.XPATH, "//span/button").click()
+    WebDriverWait(self.driver, 30).until(expected_conditions.presence_of_element_located((By.ID, "user-menu-toggle")))
+    
     time.sleep(3)
     self.driver.find_element(By.CSS_SELECTOR, ".userinitials").click()
     self.driver.find_element(By.LINK_TEXT, "Log out").click()
     elements = self.driver.find_elements(By.LINK_TEXT, "Log in")
     assert len(elements) > 0
-
+  
 if __name__ == '__main__':
   file1 = open("login_credentials.json")
   
-  file2 = open( "TestData/TC02TestData.json")
+  file2 = open( "TestData\TC06TestData.json")
   
   login = json.load(file1)
   test_data = json.load(file2)
   
-  testcase2 = TestTC02Descriptionmodify()
-  testcase2.setup_method(1)
+  testcase6 = TestTC06ChangingFileLicence()
+  testcase6.setup_method(1)
   
   for dataa in test_data["data"]:
-    testcase2.test_tC02Descriptionmodify(login["username"], login["password"],dataa)
-    print("Test case with data : " + dataa["data"] + "\n Completed successfully ")
+    testcase6.test_tC06ChangingFileLicence(login["username"], login["password"], dataa)
+    print("Test case with data : " + dataa["value"] + "\n Completed successfully ")
   
-  testcase2.teardown_method(1)
+  testcase6.teardown_method(1)

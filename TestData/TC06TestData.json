@@ -1,0 +1,50 @@
+{
+    "test": "test 06",
+    "data": [
+        {
+            "index": "1",
+            "expected": "unknown",
+            "value":"License not specified"
+        },
+        {
+            "index": "2",
+            "expected": "allrightsreserved",
+            "value":"All rights reserved"
+        },
+        {
+            "index": "3",
+            "expected": "public",
+            "value":"Public domain"
+        },
+        {
+            "index": "4",
+            "expected": "cc",
+            "value":"Creative commons"
+        },
+        {
+            "index": "5",
+            "expected": "cc-nd",
+            "value":"Creative commons - NoDeriv"
+        },
+        {
+            "index": "6",
+            "expected": "cc-nc-nd",
+            "value":"Creative commons - No commercial NoDeriv"
+        },
+        {
+            "index": "7",
+            "expected": "cc-nc",
+            "value":"Creative commons - No commercial"
+        },
+        {
+            "index": "8",
+            "expected": "cc-nc-sa",
+            "value":"Creative commons - No commercial ShareAlike"
+        },
+        {
+            "index": "9",
+            "expected": "cc-sa",
+            "value":"Creative commons - ShareAlike"
+        }
+    ]
+}
