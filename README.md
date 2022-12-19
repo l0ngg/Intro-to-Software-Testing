@@ -2,7 +2,7 @@
 
 #SET UP THE TESTING ENVIRONMENT FOR TESTCASE 02, 04, 06, 08
 
-1. Use firefix 97.0.2 (64-bit)
+1. Use firefox 97.0.2 (64-bit)
 
 2. Set up XAMPP v3.3.0 (compiled Apr 6th 2021)
 
