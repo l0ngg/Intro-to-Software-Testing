@@ -42,6 +42,7 @@ class TestTC01ResourceTitleNameModify():
     self.driver.find_element(By.ID, "id_name").send_keys(dataa["data"])
     self.driver.find_element(By.ID, "id_submitbutton").click()
     WebDriverWait(self.driver, 30).until(expected_conditions.presence_of_element_located((By.ID, "user-menu-toggle")))
+    time.sleep(2)
     assert self.driver.find_element(By.CSS_SELECTOR, ".h2").text == dataa["expected"]
     WebDriverWait(self.driver, 30).until(expected_conditions.presence_of_element_located((By.ID, "user-menu-toggle")))
     time.sleep(3)
