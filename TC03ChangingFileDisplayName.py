@@ -51,8 +51,18 @@ class TestTC03ChangingFileDisplayName():
     
     self.driver.find_element(By.ID, "id_submitbutton").click()
     
-    WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.LINK_TEXT, "Settings")))
-    self.driver.find_element(By.LINK_TEXT, "Settings").click()
+    # WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.LINK_TEXT, "Settings")))
+    # self.driver.find_element(By.LINK_TEXT, "Settings").click()
+    self.driver.get("https://localhost/moodle/")
+    WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.XPATH, "//span[contains(.,\'Software Testing\')]")))
+    self.driver.find_element(By.XPATH, "//span[contains(.,\'Software Testing\')]").click()
+    WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.XPATH, "//li[2]/div/div/div[2]/div/div/div/div/a")))
+    time.sleep(3)
+    self.driver.find_element(By.XPATH, "//li[2]/div/div/div[2]/div/div/div/div/a").click()
+    WebDriverWait(self.driver, 30).until(expected_conditions.visibility_of_element_located((By.LINK_TEXT, "Edit settings")))
+    time.sleep(3)
+    self.driver.find_element(By.ID, "actionmenuaction-8").click()
+    
     self.driver.find_element(By.XPATH, "//a/div/div[3]").click()
     value = self.driver.find_element(By.XPATH, "//form/div[2]/div/input").get_attribute("value")
     

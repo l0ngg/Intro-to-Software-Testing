@@ -2648,11 +2648,14 @@
       "id": "37525c1d-0a4a-481a-9486-1f0dba805ea6",
       "comment": "",
       "command": "click",
-      "target": "xpath=//div[2]/div/div/div/a/i",
+      "target": "xpath=//div/div[2]/div/div/div/a",
       "targets": [
-        ["css=.fa-file-o", "css:finder"],
-        ["xpath=//a[@id='yui_3_17_2_1_1671433207642_1472']/i", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/div/a/i", "xpath:position"]
+        ["id=yui_3_17_2_1_1671457545820_2179", "id"],
+        ["css=#yui_3_17_2_1_1671457545820_2179", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1671457545820_2179']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671457545820_2180']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[20]", "xpath:href"],
+        ["xpath=//div/div[2]/div/div/div/a", "xpath:position"]
       ],
       "value": ""
     }, {

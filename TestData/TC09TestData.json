@@ -1,0 +1,15 @@
+{
+    "test":"test 09",
+    "comment":"Uploading more than 1 file will RUIN the precondtion of TC04-RemovingFileAttachment, which requires you to have only 2 files attached to the Moodle activity, be wary of this before running this test-case",
+    "data":
+        [
+            {
+                "url":"https://placehold.jp/150x150.png",
+                "filename":"file 1"
+            },
+            {
+                "url":"https://placehold.jp/320x150.png",
+                "filename":"file 2"
+            }
+        ]
+}

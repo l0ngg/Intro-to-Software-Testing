@@ -964,3 +964,277 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeE
 
 ###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
 
+1671446548653	geckodriver	INFO	Listening on 127.0.0.1:5910
+1671446551723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5911" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofileUOWJrX"
+1671446552209	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofileUOWJrX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:5911/devtools/browser/1e0453c4-4e91-4668-8471-22702257551e
+1671446557766	Marionette	INFO	Listening on port 5935
+Read port: 5935
+1671446558529	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://localhost/moodle/my/courses.php?delayStartupUntil=configured, line 1: SyntaxError: expected expression, got '<'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://localhost/moodle/lib/javascript.php/1671267386/lib/form/filemanager.js, line 15: TypeError: options is undefined
+1671452756877	Marionette	INFO	Stopped listening on port 5935
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PSessionStorageObserver::Msg_Observe) Channel closing: too late to send/recv, messages will be lost
+
+1671453639243	geckodriver	INFO	Listening on 127.0.0.1:6420
+1671453642321	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6421" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofileUrrTMK"
+1671453642889	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofileUrrTMK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6421/devtools/browser/cf10a467-770c-421c-b341-a504aa49c911
+1671453648817	Marionette	INFO	Listening on port 6445
+Read port: 6445
+Read port: 6445
+1671453650004	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://localhost/moodle/my/courses.php?delayStartupUntil=configured, line 1: SyntaxError: expected expression, got '<'
+1671453922539	Marionette	INFO	Stopped listening on port 6445
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671453928272	geckodriver	INFO	Listening on 127.0.0.1:6577
+1671453931362	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6578" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofileQzGEZm"
+1671453932806	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofileQzGEZm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6578/devtools/browser/dfdacbe1-e474-491d-ae16-75241c77bcf4
+1671453938836	Marionette	INFO	Listening on port 6598
+Read port: 6598
+1671453939512	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://localhost/moodle/lib/javascript.php/1671267386/lib/requirejs/require.min.js, line 5: Error: Script error for "core_form/events"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://localhost/moodle/lib/javascript.php/1671267386/lib/requirejs/require.min.js, line 5: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://localhost/moodle/my/courses.php?delayStartupUntil=configured, line 1: SyntaxError: expected expression, got '<'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://localhost/moodle/lib/javascript.php/1671267386/lib/form/filemanager.js, line 15: TypeError: options is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1671457068589	Marionette	INFO	Stopped listening on port 6598
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671457072438	geckodriver	INFO	Listening on 127.0.0.1:7156
+1671457075632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7157" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofileYczlEc"
+1671457076459	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofileYczlEc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:7157/devtools/browser/5a4c753e-c432-43a8-b6dc-6368365f76f2
+1671457083910	Marionette	INFO	Listening on port 7180
+Read port: 7180
+1671457084118	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://localhost/moodle/lib/javascript.php/1671267386/lib/requirejs/require.min.js, line 5: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://localhost/moodle/lib/javascript.php/1671267386/lib/requirejs/require.min.js, line 5: Error: Script error for "core_form/events"
+http://requirejs.org/docs/errors.html#scripterror
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://localhost/moodle/my/courses.php?delayStartupUntil=configured, line 1: SyntaxError: expected expression, got '<'
+SourceActor threw an exception: Error: Failed to fetch https://localhost/moodle/course/modedit.php?update=8&return=0&sr=0. Code 2153398258.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://localhost/moodle/course/modedit.php?update=8&return=0&sr=0. Code 2153398258.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://localhost/moodle/course/modedit.php?update=8&return=0&sr=0. Code 2153398258.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1671457593561	Marionette	INFO	Stopped listening on port 7180
+1671457597160	geckodriver	INFO	Listening on 127.0.0.1:7623
+1671457600209	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7624" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofile1twE1X"
+1671457600749	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofile1twE1X\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:7624/devtools/browser/728e5b0c-22b8-48c7-b4fd-dd7482ba475d
+1671457607257	Marionette	INFO	Listening on port 7646
+Read port: 7646
+1671457608036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://localhost/moodle/lib/javascript.php/1671267386/lib/requirejs/require.min.js, line 5: Error: Script error for "core_form/events"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://localhost/moodle/lib/javascript.php/1671267386/lib/requirejs/require.min.js, line 5: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://localhost/moodle/my/courses.php?delayStartupUntil=configured, line 1: SyntaxError: expected expression, got '<'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1671457664136	Marionette	INFO	Stopped listening on port 7646
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1671458139058	geckodriver	INFO	Listening on 127.0.0.1:7878
+1671458142148	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7879" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofile5eHFFv"
+1671458142639	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofile5eHFFv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:7879/devtools/browser/f1220436-dc4a-461f-b0dc-89929b6676ce
+1671458148267	Marionette	INFO	Listening on port 7901
+Read port: 7901
+1671458148927	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://localhost/moodle/lib/javascript.php/1671267386/lib/requirejs/require.min.js, line 5: Error: Script error for "core_form/events"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://localhost/moodle/lib/javascript.php/1671267386/lib/requirejs/require.min.js, line 5: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://localhost/moodle/my/courses.php?delayStartupUntil=configured, line 1: SyntaxError: expected expression, got '<'
+1671458417928	Marionette	INFO	Stopped listening on port 7901
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671458419573	geckodriver	INFO	Listening on 127.0.0.1:8007
+1671458422659	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8008" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofileSOsWCj"
+1671458423275	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofileSOsWCj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:8008/devtools/browser/3ffafa13-ed77-4c23-8fc7-b559800a7cd6
+1671458429317	Marionette	INFO	Listening on port 8031
+Read port: 8031
+1671458430455	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://localhost/moodle/lib/javascript.php/1671267386/lib/requirejs/require.min.js, line 5: Error: Script error for "core_form/events"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://localhost/moodle/lib/javascript.php/1671267386/lib/requirejs/require.min.js, line 5: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://localhost/moodle/my/courses.php?delayStartupUntil=configured, line 1: SyntaxError: expected expression, got '<'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1671458504558	Marionette	INFO	Stopped listening on port 8031
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671458510665	geckodriver	INFO	Listening on 127.0.0.1:8120
+1671458513755	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8121" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofilegvEnwr"
+1671458514454	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofilegvEnwr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:8121/devtools/browser/f2436725-fca2-456d-81b1-806170e48fa6
+1671458520529	Marionette	INFO	Listening on port 8146
+Read port: 8146
+1671458520819	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://localhost/moodle/my/courses.php?delayStartupUntil=configured, line 1: SyntaxError: expected expression, got '<'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1671458577228	Marionette	INFO	Stopped listening on port 8146
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1671458623784	geckodriver	INFO	Listening on 127.0.0.1:8261
+1671458626831	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8262" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofileQfWtRT"
+1671458627406	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofileQfWtRT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:8262/devtools/browser/a0a30c86-57c9-4cb1-b7ba-df948da17e44
+1671458633959	Marionette	INFO	Listening on port 8288
+Read port: 8288
+1671458634880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://localhost/moodle/my/courses.php?delayStartupUntil=configured, line 1: SyntaxError: expected expression, got '<'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1671458683884	Marionette	INFO	Stopped listening on port 8288
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 895: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1671458700720	geckodriver	INFO	Listening on 127.0.0.1:8459
+1671458703956	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8460" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofileqAC2dn"
+1671458704830	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofileqAC2dn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:8460/devtools/browser/45bd1d0b-b019-492b-9e4f-bfe0744cf5c2
+1671458711843	Marionette	INFO	Listening on port 8487
+Read port: 8487
+1671458712842	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://localhost/moodle/my/courses.php?delayStartupUntil=configured, line 1: SyntaxError: expected expression, got '<'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1671458830372	Marionette	INFO	Stopped listening on port 8487
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1671458835866	geckodriver	INFO	Listening on 127.0.0.1:8625
+1671458838940	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8626" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofilecWRZ5D"
+1671458839406	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\me\\AppData\\Local\\Temp\\rust_mozprofilecWRZ5D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:8626/devtools/browser/bd40b06f-b053-4034-b0e8-740c0d2b1d59
+1671458844930	Marionette	INFO	Listening on port 8650
+Read port: 8650
+1671458846173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://localhost/moodle/my/courses.php?delayStartupUntil=configured, line 1: SyntaxError: expected expression, got '<'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1671459053210	Marionette	INFO	Stopped listening on port 8650
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PSessionStorageObserver::Msg_Observe) Channel closing: too late to send/recv, messages will be lost
+
