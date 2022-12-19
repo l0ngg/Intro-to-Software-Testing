@@ -5,11 +5,11 @@
         [
             {
                 "url":"https://placehold.jp/150x150.png",
-                "filename":"file 1"
+                "filename":"file1.txt"
             },
             {
                 "url":"https://placehold.jp/320x150.png",
-                "filename":"file 2"
+                "filename":"file2.txt"
             }
         ]
 }
