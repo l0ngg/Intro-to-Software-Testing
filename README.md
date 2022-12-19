@@ -22,11 +22,15 @@
 
 8. Make sure the following data files are present:
 
-"login_credentials.json"
+"TestData/TC01TestData.json"
 
-"TC02TestData.json"
+"TestData/TC02TestData.json"
 
-"TC06TestData.json"
+"TestData/TC03TestData.json"
+
+"TestData/TC05TestData.json"
+
+"TestData/TC06TestData.json"
 
 9. Modify the "login_credentials.json" corresponding to the Moodle administrative account on your local machine
 
